@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // src/App.jsx
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
@@ -13,23 +12,9 @@ export default function App() {
     <Authenticator>
       {({ signOut, user }) => <NotesApp user={user} signOut={signOut} />}
     </Authenticator>
-=======
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={reactLogo} className="logo react" alt="React logo" />
-        <h1>Hello from Amplify</h1>
-      </header>
-    </div>
->>>>>>> 5470235913dca27100083400863a7a5cf752ad4d
   );
 }
-export default App;
 
-<<<<<<< HEAD
 function NotesApp({ user, signOut }) {
   const [notes, setNotes] = useState([]);
   const [name, setName] = useState('');
@@ -180,5 +165,3 @@ function NotesApp({ user, signOut }) {
     </main>
   );
 }
-=======
->>>>>>> 5470235913dca27100083400863a7a5cf752ad4d
